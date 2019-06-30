@@ -1,3 +1,0 @@
-# Portfolio and blog
-
-## Coming Soon...
