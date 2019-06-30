@@ -1,2 +1,3 @@
-# mypotfolio
-my porfolio site
+# Portfolio and blog
+
+##Comming Soon...
