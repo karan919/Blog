@@ -1,0 +1,16 @@
+{
+    "short_name": "Karan Mahajan",
+    "name": "Karan Mahajan - Blog",
+    "icons": [
+        {
+            "src": "favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        }
+    ],
+    "start_url": ".",
+    "display": "standalone",
+    "theme_color": "#61cbcf",
+    "background_color": "#ffffff",
+    "description": "Karan Mahajan is a FrontEnd Developer that started his path by learning through various video courses and working in the IT and digital industry. Owner of channel gyan university and a gamer in his free time."
+}
