@@ -1,5 +1,5 @@
 @font-face {
-    src: url(../assets/fonts/SourceSansPro-Regular.ttf);
+    src: url(./assets/fonts/SourceSansPro-Regular.ttf);
     font-family: "SourceSansPro";
     font-weight: normal;
 }
@@ -145,7 +145,7 @@ section{
     z-index: 2;
     /* background-color: #61cbcf; */
     clip-path: polygon(0% 30%, 100% 0%, 100% 70%, 0% 100%);
-    background-image: url("../assets/back2.jpg");
+    background-image: url("./assets/back2.jpg");
 
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
