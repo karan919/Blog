@@ -142,9 +142,7 @@ section{
     /* background-color: #61cbcf; */
     clip-path: polygon(0% 30%, 100% 0%, 100% 70%, 0% 100%);
     background-image: url("../assets/back2.jpg");
-  
 
-  
     /* Create the parallax scrolling effect */
     background-attachment: fixed;
     background-position: center;
