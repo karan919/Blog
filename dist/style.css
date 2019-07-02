@@ -1,0 +1,189 @@
+@font-face {
+    src: url(../assets/fonts/SourceSansPro-Regular.ttf);
+    font-family: "SourceSansPro";
+    font-weight: normal;
+}
+
+body{
+    font-family: "SourceSansPro";
+}
+section{
+    margin : 2rem 0;
+}
+
+/* About Section - Start */
+#main{
+    margin-top: 4rem;
+}
+.main-image{
+    width: 20rem;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 50%;
+    -webkit-box-shadow: 6px 19px 21px -3px rgba(204,200,204,1);
+    -moz-box-shadow: 6px 19px 21px -3px rgba(204,200,204,1);
+    box-shadow: 6px 19px 21px -3px rgba(204,200,204,1); 
+}
+.about-info{
+    margin: 0;
+    position: relative;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+.email-link{
+    text-align: right;
+    margin-top: 16px;
+    margin-right: 40px;
+}
+
+/* Quote CSS - Start */
+.box {
+    background-color: transparent;
+    border-radius: 3px;
+    color: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    transform-style: preserve-3d;
+    perspective: 2000px;
+    transition: .4s;
+    text-align: center;
+  }
+  .box:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    border-top: 20px solid #fff;
+    border-left: 20px solid #fff;
+    box-sizing: border-box;
+  }
+  .box:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-bottom: 20px solid #fff;
+    border-right: 20px solid #fff;
+    box-sizing: border-box;
+  }
+  .box .fas {
+    font-size: 25px;
+    height: 50px;
+    width: 50px;
+    line-height: 50px !important;
+    background-color: #fff;
+    color: #2C3A47;
+  }
+  .box .fa2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    z-index: 1;
+  }
+  .box .text {
+    position: absolute;
+    top: 30px;
+    left: -30px;
+    width: calc(100% + 60px);
+    height: calc(100% - 60px);
+    background-color: #2C3A47;
+    border-radius: 3px;
+    transition: .4s;
+  }
+  .box .text .fa1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+  }
+  .box .text div {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translateY(-50%);
+    text-align: center;
+    width: 100%;
+    padding: 30px 60px;
+    line-height: 1.5;
+    box-sizing: border-box;
+  }
+  .box .text div h3 {
+    font-size: 30px;
+    margin-bottom: 5px;
+  }
+  .box .text div p {
+    font-size: 15px;
+  }
+  .box:hover {
+    transform: translate(-50%, -50%) rotateY(-20deg) skewY(3deg);
+  }
+  .box:hover .text {
+    transform: rotateY(20deg) skewY(-3deg);
+  }
+  /* Quote CSS - End */
+
+/* About Section - End */
+
+/* Youtube Section - Start */
+.Youtube{
+    width: 100%;
+    height: 750px;
+    z-index: 2;
+    /* background-color: #61cbcf; */
+    clip-path: polygon(0% 30%, 100% 0%, 100% 70%, 0% 100%);
+    background-image: url("../assets/back2.jpg");
+  
+
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.youtube-heading{
+    font-weight: bolder;
+    margin-bottom: 1rem;
+    color: white;
+}
+.fa-youtube{
+    color: red;
+}
+.vidz iframe{
+    margin-right: 10px;
+}
+.yt-content{
+    padding-top: 250px;
+}
+/* Youtube Section - End */
+
+/* Blog Section - Start */
+.Blog{
+    text-align: center;
+}
+/* Blog Section - End */
+
+/* Contact Me - Start */
+.Contact{
+    margin-bottom: 0px;
+    padding: 50px 150px;
+    background: linear-gradient(to bottom, rgba(254,254,254,1) 0%, rgba(254,254,254,1) 3%, rgba(226,226,226,0.96) 59%, rgba(219,219,219,0.94) 100%);
+}
+
+.clink{
+    font-size: 1rem;
+}
+.clink a{
+    color: black;
+}
+/* Contact Me - End */
