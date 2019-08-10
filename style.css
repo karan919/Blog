@@ -173,6 +173,30 @@ section{
 .Blog{
     text-align: center;
 }
+
+.flex-box{
+    display: flex;
+}
+
+.article{
+    width: 333px;
+    height: 260px;
+    box-shadow: 4px 7px 13px -5px rgba(0,0,0,0.75);
+}
+
+.article img{
+    width: inherit;
+}
+
+.intro{
+    font-size: 20px;
+    font-weight: bold;
+    color: darkslategrey;
+}
+
+.article button{
+    text-align: left;
+}
 /* Blog Section - End */
 
 /* Contact Me - Start */
@@ -220,5 +244,8 @@ section{
     }
     .clink{
         margin-bottom: 10px;
+    }
+    .article{
+        width: 100%;
     }
 }
